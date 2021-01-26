@@ -25,11 +25,11 @@ Modul ini digunakan untuk pembangkitan CSR dan TTE pada dokumen PDF dengan mengg
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hantek-bsre' => 'hantek.bsre@gmail.com' }
-  s.source           = { :git => 'https://hantek-bsre@github.com/hantek-bsre/BSrESignModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://ghiyatshanif@github.com/hantek-bsre/BSrESignModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version = '5.0'
-  s.ios.deployment_target = '13.0'
-  s.platform = :ios, '13.0'
+  s.ios.deployment_target = '12.0'
+  s.platform = :ios, '12.0'
 
   s.source_files = 'BSrESignModule/Classes/**/*.{h,m,swift}'
   s.dependency 'Alamofire', '~> 5.4'
